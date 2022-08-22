@@ -2,13 +2,14 @@
 My work for CS-230 Operating Platforms
 
 # Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
-
+The Gaming Room is looking to get its video game, Draw It or Lose It, out to the greater public in the form of a web-based application. They came to me with help in recommending what OS to base their programming on, how to manage their storage and data, and how best to organize their server structures. We were not creating the video game but simply guiding them through creating an environment that would help the game best.
 # What did you do particularly well in developing this documentation?
-
+I did not know very much about the different operating systems before going into this project. I've only ever used Windows and Mac, and I vastly prefer Windows to the latter. It feels so much better to program on. I hadn't even tried Linux. So I had a lot of my research cut out for me when it came to finding the best OS. I think I did an excellent job of educating myself on the pros and cons of different operating systems, and I think I laid out my findings very clearly and concisely, even for someone without programming experience.
 # What about the process of working through a design document did you find helpful when developing the code?
-
+Making the UML diagram was quite helpful for the programming that followed afterward. Using Maven was new to me, and having a chart that showed me how I needed to organize the new files helped me figure out how to organize things. It made the parts of programming I knew how to do simpler so I could focus on the new.
 # If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
-
+I think I could have done a better job of narrowing down design constraints. The list I have is by no means vague, but I feel like a few points are a bit vague and could use some elaboration. I feel like I should have differentiated between business and technical constraints better, to help the people reading my document figure out how to work on each constraint.
 # How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
-
+User needs are the foundation for any program. Programs are made to satisfy user needs, to fill the requirements of the program they wish to use. Without a solid list of requirements, a project will fail even if it's well programmed. Interpreting the user's needs can be difficult since they can tell you what they want but it's up to you as the programmer to figure out what they need. That comes down to understanding how to translate their requests into pieces of code that contribute to the core purpose of the project. Both reasoning and communication are needed to decipher requirements from user input.
 # How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+I always try to start with what the core goal of the project is and then stem out from there. What user input contributes to that goal, or adds to it in a meaningful way? I then begin breaking down what the requirements mean as pieces of code. A large security concern was a requirement for the Gaming Room project, so I implemented account authorization to authenticate users accessing the server. Patterns were a nice thing we learned about in this course, which were specific pieces of code that tend to be the most efficient way to answer a specific problem. While they are not always an exact answer, because the code always varies depending on the project, they can be incredibly helpful for designing and implementing requirements into software projects.
